@@ -7,7 +7,7 @@ target_ip = "223.1.1.1"
 target_port = 6666  # 自定义端口，可以更改
 mode = 1
 percentage = 50
-packet_size = 10240  # 每个 UDP 数据包的大小（1024 字节）
+packet_size = 1024  # 每个 UDP 数据包的大小（1024 字节）
 packets_per_second = 700  # 每秒发送的包数
 
 # 创建 UDP 套接字
